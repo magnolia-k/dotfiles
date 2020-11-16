@@ -4,7 +4,7 @@ export LANG=ja_JP.UTF-8
 # 色を使用
 autoload -Uz colors
 colors
-PROMPT="%{$fg[green]%}%m%(!.#.$) %{$reset_color%}"
+PROMPT="%{$fg[green]%}%n@%m%(!.#.$) %{$reset_color%}"
 PROMPT2="%{$fg[green]%}%_> %{$reset_color%}"
 SPROMPT="%{$fg[red]%}correct: %R -> %r [nyae]? %{$reset_color%}"
 RPROMPT="%{$fg[cyan]%}[%~]%{$reset_color%}"
