@@ -13,7 +13,7 @@ RPROMPT="%{$fg[cyan]%}[%~]%{$reset_color%}"
 alias ls="ls -G"
 
 # Javaのバージョン指定
-export JAVA_HOME=`/usr/libexec/java_home -v 15`
+export JAVA_HOME=`/usr/libexec/java_home -v 17`
 
 # zshの補完機能を使ってgitの補完を有効にする
 autoload -Uz compinit && compinit
